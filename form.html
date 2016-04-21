@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Верстка</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="form.css">
+  <script src="jquery-2.2.2.min.js"></script>
+  <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+	<div class="name">
+	    <input type="text" placeholder="Your name">
+	    <small class="required">reqiured</small>
+	    <small class="min">min 2 simb</small>
+	</div>
+	<div class="email">
+	    <input type="email" placeholder="Email">
+	    <small class='required'>reqiured</small>
+	    <small class='invalid'>not valid</small>
+	</div>
+	<div class="phone">
+	    <input type="text" placeholder="Phone">
+	    <small class='required'>reqiured</small>
+	    <small class="num">only numbers</small>
+	</div>
+	<div class="message">
+	    <textarea placeholder="Your message"></textarea>
+	    <small class='required'>reqiured</small>
+	    <small class="min">min 10 simb</small>
+	</div>
+	<div class="gender">
+	    <INPUT TYPE="Radio" Name="Gender" Value="Male">M
+		<INPUT TYPE="Radio" Name="Gender" Value="Female">F
+		<small class='required'>reqiured</small>
+	</div>
+	<div class="checkbox">
+		<INPUT TYPE="Checkbox" Name="agreement" Value ="agreement"> I HAVE READ AND UNDERSTAND THIS AGREEMENT, AND I ACCEPT AND AGREE TO ALL OF ITS TERMS AND CONDITIONS. 
+		<small class='required'>reqiured</small>
+	</div>
+	<br>
+	<input type="button" value="Submit">
+	<input type="reset" value="Reset">
+</body>
+</html>

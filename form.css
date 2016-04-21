@@ -1,0 +1,21 @@
+small{
+  color: rgb(255, 0, 0);
+  margin: 0;
+  display: none;
+}
+.error-r input,
+.error-r textarea,
+.error-in input,
+.error-in textarea,
+.error-min input,
+.error-min textarea,
+.error-num input,
+.error-num textarea{
+border: 1px solid #ff0000;
+}
+.error-r .required,
+.error-in .invalid,
+.error-min .min,
+.error-num .num{
+  display: inline;
+}
